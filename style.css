@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+
+*{
+    margin: 0;
+}
+
+
+button{
+    padding: 12px 24px;
+    font-family: Rubik;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    background-color: #5300C9;
+    border-radius: 8px;
+    border-color: transparent;
+    }
+
+    div{
+      padding: 10px;
+
+    }
+
+
+ button:hover{
+    background-color: #8647E0;
+    border-radius: 8px;
+ }
+
+ button:focus{
+    background-color: #5300C9;
+    border: 3px solid #DCC3FF;
+    border-radius: 8px;
+ }
+
+ button:active{
+    background-color: #4400A5;
+    border-radius: 8px;
+ }
+
+ button:disabled{
+    background-color: #E4E4E4;
+    border-radius: 8px;
+ }
+
+ 
